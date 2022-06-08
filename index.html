@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="text">
+        <h1 >Welcome to the number guessing game</h1>
+
+        <p class="aralık"  >
+          Guess a number between <span class="tahmin">(0-100) </span>
+        </p>
+      </div>
+      <div class="input_number">
+        <input type="number" name="numbers" id="numbers" min="1" max="100"  />
+        <button class="check" type="submit">Check</button>
+      </div>
+      
+      <div class="button">
+        <button class="reset-button" type="reset">Restart</button>
+      </div>
+    </div>
+
+    <div class="feedback">
+        <p>Enter a Number!</p>
+    </div>
+    <div class="life">
+        <p>⬇️ Remaining Life ⬇️ </p>
+        <p class="remaining-life">7</p>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

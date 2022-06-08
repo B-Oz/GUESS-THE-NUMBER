@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./img/navi-08vyPYn9OE4-unsplash.jpg);
+    background-size: cover;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 8rem;
+    
+}
+
+h1{
+   color: azure;
+   font-size: 3rem;
+}
+
+.aralık{
+    font-size: 2rem;
+    color: azure;
+    margin-top: 1rem;
+    font-weight: bolder;
+}
+
+.input_number{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+   
+
+}
+
+.input_number input{
+    /* padding: 0.5rem 4rem;
+    font-size: 1.5rem;
+    text-align: center;
+    size: 2rem; */
+    border: 1px solid #D3D3D3;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    color: darkgreen;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+   
+
+}
+
+.check{
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    width: 150px;
+    height: 20px;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 0;
+}
+
+.reset-button{
+   
+    border: 1px solid #D3D3D3;
+    border-radius: 10px;
+    width: 100px;
+    height: 20px;
+    font-size: 1rem;
+    font-weight: 700;
+
+   
+}
+.reset-button:hover{
+    background-color: gold;
+    width: 150px;
+    height: 30px;
+}
+.check:hover{
+    background-color: gold;
+   
+}
+
+.feedback{
+    color: azure;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.life{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    color: azure;
+    font-size: 2rem;
+}
+.remaining-life{
+    font-size: 5rem;
+    
+}
